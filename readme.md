@@ -1,5 +1,5 @@
 # Sitecore.Support.370128
-SAML2 SSO (Shibboleth) conflicts with Sitecore Nexus
+Sitecore Nexus module corrupt data in POST requests. For example the Application Request Routing module for IIS or SAML2 SSO (Shibboleth).
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.370128/blob/master/LICENSE).  
