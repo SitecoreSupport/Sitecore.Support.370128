@@ -10,7 +10,7 @@
             string setting = Settings.GetSetting("AbsoluteIgnoreUrlPrefixes");
             if (!string.IsNullOrEmpty(setting))
             {
-                string[] strArray = setting.Split(new char[] { '|' });
+                 string[] strArray = setting.Split(new char[] { '|' });
                 if (strArray.Length > 0)
                 {
                     for (int i = 0; i < strArray.Length; i++)
